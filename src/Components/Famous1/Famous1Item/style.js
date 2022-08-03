@@ -11,7 +11,7 @@ export const Famous1ItemWrapper = styled.div`
     background-color: #F5F5F5;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 180px;
+    justify-content:center;
     overflow-x: hidden;
     padding-top: 10px;
 
