@@ -1,8 +1,11 @@
 import React from "react";
+import Order from "../../Components/Order";
 
 const PageOrder = () => {
     return (
-        <div></div>
+        <div>
+            <Order/>
+        </div>
     )
 }
 

@@ -1,8 +1,11 @@
 import React from "react";
+import History from "../../Components/History";
 
 const PageHistory = () => {
     return (
-        <div></div>
+        <div>
+            <History/>
+        </div>
     )
 }
 

@@ -24,6 +24,11 @@ export const NotificationItemWrapper = styled.div`
     transition: 1s;
 }
 
+.notification_item:hover{
+    background-color: orange;
+    transition: 1s;
+}
+
 .image img{
     height: auto;
     width: 120px;

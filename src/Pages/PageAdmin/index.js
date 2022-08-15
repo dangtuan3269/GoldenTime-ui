@@ -1,9 +1,9 @@
 import React from "react";
 
-const PageStatitis = () => {
+const PageAdmin = () => {
     return (
         <div></div>
     )
 }
 
-export default PageStatitis;
+export default PageAdmin;

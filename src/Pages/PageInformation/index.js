@@ -1,8 +1,11 @@
 import React from "react";
+import Information from "../../Components/Information";
 
 const PageInformation = () => {
     return (
-        <div></div>
+        <div>
+            <Information/>
+        </div>
     )
 }
 
