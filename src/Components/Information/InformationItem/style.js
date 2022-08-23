@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const InformationItemWrapper = styled.div`
 
 
-    background-image: url("../../../../image/31.jpg");
+    background-image: url("../../../../assets/image/31.jpg");
     width: 100%;
     height: 100vh;
     border: 1px solid;
@@ -26,7 +26,7 @@ export const InformationItemWrapper = styled.div`
 }
 
 .information_item:hover{
-    background-color: orange;
+    background-color: #bf9375;
     transition: 1s;
 }
 

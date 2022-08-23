@@ -9,14 +9,13 @@ export const MenuItemWrapper = styled.div`
 .menu ul {
     list-style-type: none;
     background-color: #333333;
-    text-align: center;
-    display: flex;
     font-size: 15px;
     font-family: Timenewroman;
     padding: 6px 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 55px;
+    justify-content: space-between;
 }
 
 .menu ul li {
@@ -25,6 +24,7 @@ export const MenuItemWrapper = styled.div`
     width: 100%;
     height: 30px;
     line-height: 30px;
+    
 }
 
 .menu ul li a {
@@ -32,7 +32,7 @@ export const MenuItemWrapper = styled.div`
     text-decoration: none;
     display: block;
     transition: .25s ease-in;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .menu ul li a: hover {

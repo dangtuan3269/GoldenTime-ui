@@ -20,7 +20,7 @@ overflow: hidden;
 .basic{
     width: 600px;
     height: 300px;
-    background-image: url("image/11.jpg");
+    background-image: url("/assets/image/11.jpg");
     color: white;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ overflow: hidden;
 .smart{
     width: 600px;
     height: 300px;
-    background-image: url("image/12.jpg");
+    background-image: url("/assets/image/12.jpg");
     color: white;
     background-size: 100%;
     background-repeat: no-repeat;

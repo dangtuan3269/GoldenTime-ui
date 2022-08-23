@@ -1,7 +1,7 @@
 export const DataDigitalInformation = [
     {
         id: 'inf1',
-        img: "/image/32.jpg",
+        img: "/assets/image/32.jpg",
         name: 'Đặng Văn Tuấn',
         phone: '0848243269',
         address: '92 Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội',
@@ -10,7 +10,7 @@ export const DataDigitalInformation = [
     },
     {
         id: 'inf2',
-        img: "/image/33.png",
+        img: "/assets/image/33.png",
         name: 'Hoàng Xuân Huy',
         phone: '01248243269',
         address: '92 Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội',
@@ -19,7 +19,7 @@ export const DataDigitalInformation = [
     },
     {
         id: 'inf3',
-        img: "/image/34.png",
+        img: "/assets/image/34.png",
         name: 'Nguyễn Quốc Tuấn',
         phone: '0848243269',
         address: '92 Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội',

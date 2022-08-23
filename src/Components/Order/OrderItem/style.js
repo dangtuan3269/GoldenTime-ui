@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const OrderItemWrapper = styled.div`
 
 
-    background-image: url("../../../../image/30.jpg");
+    background-image: url("../../../../assets/image/30.jpg");
     width: 100%;
     height: 100vh;
     border: 1px solid;
@@ -28,7 +28,7 @@ export const OrderItemWrapper = styled.div`
 }
 
 .order_item:hover{
-    background-color: orange;
+    background-color: #bf9375;
     transition: 1s;
 }
 

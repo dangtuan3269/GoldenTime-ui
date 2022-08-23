@@ -52,7 +52,7 @@ button: hover{
 
 img {
     height: auto;
-    max-width: 1550px;
+    max-width: 1700px;
     margin: auto;
 }
 

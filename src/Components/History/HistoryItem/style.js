@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const HistoryItemWrapper = styled.div`
 
 
-    background-image: url("../../../../image/30.jpg");
+    background-image: url("../../../../assets/image/30.jpg");
     width: 100%;
     height: 100vh;
     border: 1px solid;
@@ -39,8 +39,6 @@ table{
 .id:hover{
     background-color: blue;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 
@@ -53,8 +51,6 @@ table{
 .name:hover{
     background-color: yellow;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 
@@ -67,8 +63,6 @@ table{
 .code:hover{
     background-color: red;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 
@@ -82,8 +76,6 @@ table{
 .price:hover{
     background-color: green;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 
@@ -96,8 +88,6 @@ table{
 .receiver:hover{
     background-color: violet;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 
@@ -110,8 +100,6 @@ table{
 .address:hover{
     background-color: brown;
     color: white;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 
@@ -124,8 +112,6 @@ table{
 .status:hover{
     background-color: orange;
     color: black;
-    font-weight: bold;
-    font-size: 20px;
     transition: 1s;
 }
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const NotificationItemWrapper = styled.div`
 
 
-    background-image: url("../../../../image/27.jpg");
+    background-image: url("../../../../assets/image/27.jpg");
     width: 100%;
     height: 100vh;
     border: 1px solid;
@@ -22,6 +22,7 @@ export const NotificationItemWrapper = styled.div`
     box-shadow: 0 0 30px yellow;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,0.3));
     transition: 1s;
+    cursor: pointer;
 }
 
 .notification_item:hover{

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const SignupItemWrapper = styled.div`
 
-background-image: url("../../../../image/29.jpg");
+background-image: url("../../../../assets/image/29.jpg");
     width: 100%;
     height: 100vh;
     border: 1px solid;
@@ -17,7 +17,7 @@ background-image: url("../../../../image/29.jpg");
     width: 500px;
     height: 300px;
     background-color: white;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-top: 100px;
     margin-right: 100px;
     text-align: center;
@@ -54,6 +54,7 @@ background-image: url("../../../../image/29.jpg");
     box-shadow: 0 0 10px yellow;
     border-radius: 30px;
     color: white;
+    margin-left: 100px;
 }
 
 .login .css{

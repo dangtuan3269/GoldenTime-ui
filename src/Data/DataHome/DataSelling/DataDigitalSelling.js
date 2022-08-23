@@ -1,24 +1,24 @@
 export const DataDigitalSelling = [
     {
         id: 'sp1',
-        img: "/image/7.png",
+        img: "/assets//image/7.png",
         title: "Sản phẩm số 1",
-        price: "700.000"
+        price: 700000
     },
     {
         id: 'sp2',
-        img: "/image/8.png",
+        img: "/assets//image/8.png",
         title: "Sản phẩm số 2",
-        price: "800.000"
+        price: 800000
     },    {
         id: 'sp3',
-        img: "/image/9.png",
+        img: "/assets//image/9.png",
         title: "Sản phẩm số 3",
-        price: "900.000"
+        price: 900000
     },    {
         id: 'sp4',
-        img: "/image/10.png",
+        img: "/assets//image/10.png",
         title: "Sản phẩm số 4",
-        price: "1.000.000"
+        price: 1000000
     }
 ] 

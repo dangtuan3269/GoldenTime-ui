@@ -19,7 +19,7 @@ padding-bottom: 50px;
 .male{
     width: 600px;
     height: 300px;
-    background-image: url("image/5.jpg");
+    background-image: url("/assets/image/5.jpg");
     color: white;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -48,7 +48,7 @@ padding-bottom: 50px;
 .female{
     width: 600px;
     height: 300px;
-    background-image: url("image/6.jpg");
+    background-image: url("/assets/image/6.jpg");
     color: white;
     background-size: 121%;
     background-repeat: no-repeat;

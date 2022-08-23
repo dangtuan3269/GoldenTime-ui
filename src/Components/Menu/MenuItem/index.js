@@ -14,6 +14,7 @@ const MenuItem = () => {
                 <li> <Link to="/order">Quản lý đơn hàng</Link> </li>
                 <li> <Link to="/information">Thông tin cá nhân</Link> </li>
                 <li> <Link to="/history">Lịch sử đơn hàng</Link> </li>
+                <li> <Link to="/cart">Giỏ hàng</Link> </li>
             </ul>
         </div>
         </MenuItemWrapper>

@@ -6,7 +6,7 @@ const FooterItem = () => {
         <FooterItemWrapper>
             <div className="footer">
                 <div className="contact">
-                    <span>THÔN TIN LIÊN HỆ</span>
+                    <span>THÔNG TIN LIÊN HỆ</span>
                     <ul>
                         <li><a href="#"> 319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM</a></li>
                         <li><a href="#">076 922 0162</a></li>
@@ -41,10 +41,10 @@ const FooterItem = () => {
                 <div className="download">
                     <span>TẢI ỨNG DỤNG TRÊN</span> <br/> <br/>
                     <label>Ứng dụng Mona Watch hiện có sẵn trên Google Play & App Store. Tải nó ngay.</label> <br/> <br/>
-                    <img src="../../../../image/23.jpg"/> <br/>
-                    <img src="../../../../image/24.jpg"/> <br/>
-                    <img src="../../../../image/25.png"/> <br/>
-                    <img src="../../../../image/26.png"/>
+                    <img src="../../../../assets/image/23.jpg"/> <br/>
+                    <img src="../../../../assets/image/24.jpg"/> <br/>
+                    <img src="../../../../assets/image/25.png"/> <br/>
+                    <img src="../../../../assets/image/26.png"/>
                 </div>
             </div>
 

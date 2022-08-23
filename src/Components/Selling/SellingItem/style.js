@@ -20,17 +20,25 @@ export const SellingItemWrapper = styled.div`
     width: calc((100% - 500px)/4);
     height: 350px;
     background-color: white;
-    box-shadow: 0 0 3px;
     overflow: hidden;
     margin-left: 30px;
     text-align: center;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+.product_item:hover .product_item_name{
+    color: #cd1916;
+}
+
+.product_item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .product_item a {
     display: flex;
     flex-direction: column;
     align-item: center;
-    justify-content: center;
     text-decoration: none;
 }
 
@@ -61,5 +69,13 @@ export const SellingItemWrapper = styled.div`
     border: none;
     padding: 5px 10px;
     cursor: pointer;
+    transition: 0.5s;
+}
+
+.product_item_button:hover{
+    color: #C89775;
+    background-color: #FFFF;
+    border: 1px solid #C89775;
+    transition: 0.5s;
 }
 `
