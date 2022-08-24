@@ -1,0 +1,1 @@
+export const GOLDENTIME_API_DOMAIN = "http://localhost:3300";

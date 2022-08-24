@@ -4,15 +4,39 @@ import { PageDetail1Wrapper } from "./style";
 // 
 import Rating from "@mui/material/Rating";
 import useLocalStorage from "use-local-storage";
+import {useQuery} from "@tanstack/react-query";
+import getWatchRequest from "../../api/watch/getWatchRequest";
+import { GOLDENTIME_API_DOMAIN } from "../../config/domain";
 
 const PageDetail1 = ({DataDigitalFamous1}) => {
     //==
     const [cart, setCart] = useLocalStorage("cart", []);
 
 
-    const {id} = useParams()
-    const selling = DataDigitalFamous1.find(item => item.id === id)
-    const {img, title, price} = selling
+    const {id} = useParams();
+    //Chuẩn bị query lấy chi tiết đồng hồ từ server
+    const getWatch = useQuery(
+        ["GetRelatedShoesQueryKey"],
+        () =>
+        getWatchRequest(id),
+        {
+          select: ({data}) => {
+            const item = data.data;
+            return {
+                id: item.watchId,
+                img: `${GOLDENTIME_API_DOMAIN}/${item.watchImage}`,
+                title: item.watchName,
+                price: parseFloat(item.price),
+            };
+          },
+        }
+      );
+      
+      // const selling = DataDigitalFamous1.find(item => item.id === id)
+      // const {img, title, price} = selling
+      const selling = getWatch.data;
+    const {img, title, price} = selling ?? {img:"", title:"",  price: 0};
+
 
     const [counter, setCounter] = useState(0);
 
@@ -42,7 +66,7 @@ const PageDetail1 = ({DataDigitalFamous1}) => {
         <PageDetail1Wrapper>
         <div className="product">
             <div className="image_product">
-               <img src={img}></img>
+               <img crossOrigin="anonymous" src={img}></img>
                <div className="image_item">
                <div className="request">Yêu cầu thêm hình ảnh </div>
                <div className="contact">Liên hệ tư vấn</div>

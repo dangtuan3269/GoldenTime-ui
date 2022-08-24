@@ -35,7 +35,7 @@ const CartItem = (props) => {
   return (
     <Stack key={id} direction={"row"} gap={2}>
       <Box>
-        <img height={"150px"} width={"150px"} src={`${img}`} style={{objectFit: "cover",}} alt={title}></img>
+        <img height={"150px"} width={"150px"} crossOrigin="anonymous" src={`${img}`} style={{objectFit: "cover",}} alt={title}></img>
       </Box>
       <Stack>
         <Typography>{title}</Typography>
